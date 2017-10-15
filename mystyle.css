@@ -1,0 +1,22 @@
+@chartset "utf-8";
+
+.grid line {
+  stroke: grey;
+  stroke-opacity: 0.95;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+  stroke-dasharray: 5,5;
+
+}
+
+rect:hover {
+      fill: black;
+    }
+
+.chart_canvas {
+	border:1px solid black;
+	margin-top: 10px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+

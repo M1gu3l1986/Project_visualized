@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"> -->
+<meta charset="UTF-8"> <!-- sets the chartset so that we can see "ååå" for example -->
+<link rel="stylesheet" type="text/css" href="mystyle.css"> <!-- the CSS -->
+
+<!--<script src="libraries/p5.min.js"></script> <!-- the library in use -->
+<script src="libraries/jquery-3.1.1.min.js"></script> <!-- the library in use -->
+<script src="libraries/d3/d3.min.js"></script> <!-- the library in use -->
+
+<script src="ExportLogs5.js"></script> <!-- our own model -->
+
+
+<style>
+
+</style>
+
+
+
+
+</head>
+<body>
+<a href="StackedChart.html">The data plotted for the days</a>
+
+
+<script>
+
+// the functions we are using from our own model
+
+$(document).ready(function(){
+	loadTXT1(); //the function in the js-script file which grabs the data, modifies and presents it
+
+});
+
+</script>
+
+<div id="textcheck"></div>
+<div class="containment" id="d3_canvas">
+
+</div>
+<div class="containment" id="d3_canvas3"></div>
+<div class="containment" id="d3_canvas4"></div>
+
+
+
+</body>
+
+
+</html>
